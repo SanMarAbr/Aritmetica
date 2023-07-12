@@ -11,6 +11,7 @@ public class PruebaAritmetica {
         int resultado = aritmetica1.sumarConRetorno();
         System.out.println("Resultado desde la prueba = "+resultado);
 
-        aritmetica1.sumarConArgumentos(5, 7);
+        resultado = aritmetica1.sumarConArgumentos(5, 8);
+        System.out.println("Resultado usando argumentos = "+resultado);
     }   
 }
